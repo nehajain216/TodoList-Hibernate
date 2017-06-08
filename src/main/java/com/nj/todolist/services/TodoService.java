@@ -1,9 +1,13 @@
 /**
  * 
  */
-package sample;
+package com.nj.todolist.services;
 
 import java.util.List;
+
+import com.nj.todolist.dao.TodoDAO;
+import com.nj.todolist.entities.Todo;
+import com.nj.todolist.entities.User;
 
 /**
  * @author Siva

@@ -1,7 +1,7 @@
 /**
  * 
  */
-package sample;
+package com.nj.todolist.dao;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -10,6 +10,10 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
+
+import com.nj.todolist.entities.Todo;
+import com.nj.todolist.entities.User;
+import com.nj.todolist.utils.DBUtil;
 
 /**
  * @author Siva

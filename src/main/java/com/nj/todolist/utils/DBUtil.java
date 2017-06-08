@@ -1,4 +1,4 @@
-package sample;
+package com.nj.todolist.utils;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

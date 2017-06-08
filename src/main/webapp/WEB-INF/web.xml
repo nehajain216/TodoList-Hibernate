@@ -13,7 +13,7 @@
     <description></description>
     <display-name>LoginServlet</display-name>
     <servlet-name>LoginServlet</servlet-name>
-    <servlet-class>sample.LoginServlet</servlet-class>
+    <servlet-class>com.nj.todolist.web.servlets.LoginServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>LoginServlet</servlet-name>
@@ -22,7 +22,7 @@
   <filter>
     <display-name>RequestLoggingFilter</display-name>
     <filter-name>RequestLoggingFilter</filter-name>
-    <filter-class>sample.RequestLoggingFilter</filter-class>
+    <filter-class>com.nj.todolist.web.filters.RequestLoggingFilter</filter-class>
   </filter>
   <filter-mapping>
     <filter-name>RequestLoggingFilter</filter-name>
@@ -32,7 +32,7 @@
     <description></description>
     <display-name>MainPageServlet</display-name>
     <servlet-name>MainPageServlet</servlet-name>
-    <servlet-class>sample.MainPageServlet</servlet-class>
+    <servlet-class>com.nj.todolist.web.servlets.MainPageServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>MainPageServlet</servlet-name>
@@ -42,7 +42,7 @@
     <description></description>
     <display-name>NewToDoListServlet</display-name>
     <servlet-name>NewToDoListServlet</servlet-name>
-    <servlet-class>sample.NewToDoListServlet</servlet-class>
+    <servlet-class>com.nj.todolist.web.servlets.NewToDoListServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>NewToDoListServlet</servlet-name>
@@ -52,7 +52,7 @@
     <description></description>
     <display-name>UpdateToDoServlet</display-name>
     <servlet-name>UpdateToDoServlet</servlet-name>
-    <servlet-class>sample.UpdateToDoServlet</servlet-class>
+    <servlet-class>com.nj.todolist.web.servlets.UpdateToDoServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>UpdateToDoServlet</servlet-name>
@@ -62,7 +62,7 @@
     <description></description>
     <display-name>DeleteToDoServlet</display-name>
     <servlet-name>DeleteToDoServlet</servlet-name>
-    <servlet-class>sample.DeleteToDoServlet</servlet-class>
+    <servlet-class>com.nj.todolist.web.servlets.DeleteToDoServlet</servlet-class>
   </servlet>
   <servlet-mapping>
     <servlet-name>DeleteToDoServlet</servlet-name>

@@ -1,4 +1,4 @@
-package sample;
+package com.nj.todolist.entities;
 
 public class User 
 {

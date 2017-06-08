@@ -1,4 +1,4 @@
-package sample;
+package com.nj.todolist.web.servlets;
 
 import java.io.IOException;
 
@@ -10,6 +10,8 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 import com.mysql.jdbc.interceptors.SessionAssociationInterceptor;
+import com.nj.todolist.entities.Todo;
+import com.nj.todolist.services.TodoService;
 
 /**
  * Servlet implementation class UpdateToDoServlet
