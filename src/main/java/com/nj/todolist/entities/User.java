@@ -1,9 +1,20 @@
 package com.nj.todolist.entities;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="userdetails")
 public class User 
 {
+	@Id
+	@GeneratedValue
 	private int id;
 	private String email;
+	@Column(name="password")
 	private String pwd;
 
 	

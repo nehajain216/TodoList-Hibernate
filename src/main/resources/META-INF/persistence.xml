@@ -4,6 +4,9 @@ http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd"
   version="2.1">
   <persistence-unit name="jpa-example" transaction-type="RESOURCE_LOCAL">
   <provider>org.hibernate.jpa.HibernatePersistenceProvider</provider>
+  
+  <class>com.nj.todolist.entities.User</class>
+  
   <properties>
     <property name="javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/test?useSSL=true" />
     <property name="javax.persistence.jdbc.user" value="root" />

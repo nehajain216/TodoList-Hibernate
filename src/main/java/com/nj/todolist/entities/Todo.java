@@ -1,7 +1,16 @@
 package com.nj.todolist.entities;
 
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="todolist")
 public class Todo 
 {
+	@Id
+	@GeneratedValue
 	private int id;
 	private int userId;
 	private String title;
